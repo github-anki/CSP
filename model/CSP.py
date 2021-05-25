@@ -1,21 +1,21 @@
 from abc import ABC, abstractmethod
 from typing import Dict, List
 
-from .Constraint import Constraint
+from .Constraint import Constraint, MultipleConstraint
 
 
 class CSP():
 
     def __init__(
-        self, 
-        variables: List[str], 
-        domains: Dict[str, str], 
-        var_heuristic = "Simple Variable", 
-        domain_heuristic = "Simple Value",
-        do_forward_checking = False
+            self,
+            variables: List[str],
+            domains: Dict[str, str],
+            var_heuristic="Simple Variable",
+            domain_heuristic="Simple Value",
+            do_forward_checking=False
     ):
-        self.variables = variables 
-        self.domains = domains 
+        self.variables = variables
+        self.domains = domains
         self.constraints: Dict[str, List[Constraint]] = {}
         self.heuristic_select_variable = self.heuristic_mapper(var_heuristic)
         self.heuristic_select_domain = self.heuristic_mapper(domain_heuristic)
@@ -26,12 +26,13 @@ class CSP():
 
         # Results and statistics
         self.visited = 0
+        self.results_ = []
 
         for variable in self.variables:
             self.constraints[variable] = []
             if variable not in self.domains:
                 raise ValueError("Variable should have a domain.")
-    
+
     def heuristic_mapper(self, heuristic):
         if heuristic == "Simple Variable":
             return self.simple_variable
@@ -41,7 +42,7 @@ class CSP():
             return self.simple_value
         elif heuristic == "Least Constrained Value":
             return self.least_constrained_value
-    
+
     def get_neighbours(self):
         neighbours = {}
 
@@ -64,21 +65,24 @@ class CSP():
                 raise ValueError("Variable in constraint not in CSP")
             else:
                 self.constraints[variable].append(constraint)
-    
+
     def consistent(self, variable, assignment):
         for constraint in self.constraints[variable]:
             if not constraint.satisfied(assignment):
                 return False
         return True
 
-    def forward_checking(self, variable, value, assignment={}):
+    def forward_checking(self, variable, value, assignment):
         neighbours = self.get_neighbours()
-        
+
         for neighbour in neighbours[variable]:
             if neighbour not in assignment:
-                if value in self.domains[neighbour]:
-                    self.domains[neighbour].remove(value)
-                    self.pruned[variable].append((neighbour, value))
+                for value in self.domains[neighbour]:
+                    local_assignment = assignment.copy()
+                    local_assignment[neighbour] = value
+                    if not self.consistent(variable, local_assignment):
+                        self.domains[neighbour].remove(value)
+                        self.pruned[variable].append((neighbour, value))
 
     def most_constrained_variable(self, assignment):
         unassigned = [v for v in self.variables if v not in assignment]
@@ -92,9 +96,9 @@ class CSP():
         if len(self.domains[first]) == 1:
             return self.domains[first]
         return sorted(self.domains[first], key=lambda val: self.conflicts(self, first, self.domains))
-    
+
     def simple_value(self, first):
-       return self.domains[first]
+        return self.domains[first]
 
     @staticmethod
     def conflicts(csp, var, val):
@@ -105,48 +109,40 @@ class CSP():
                 count += 1
         return count
 
-    def backtracking_search(self, assignment = {}):
+    def backtracking_search(self, assignment):
         self.visited += 1
 
-        if len(assignment) == 0:
-            self.results_ = []
-
         if len(assignment) == len(self.variables):
-            self.results_.append(assignment)
+            self.results_.append(assignment.copy())
             return assignment
 
-        first = self.heuristic_select_variable(assignment)
+        variable = self.heuristic_select_variable(assignment)
 
-        for value in self.heuristic_select_domain(first):
-            #local_assignment = assignment.copy()
-            assignment[first] = value
-            
-            if self.consistent(first, assignment):
-                self.forward_check(first, value, assignment)
+        for value in self.heuristic_select_domain(variable):
+            assignment[variable] = value
+            self.forward_check(variable, value, assignment)
+
+            if self.consistent(variable, assignment):
                 result = self.backtracking_search(assignment)
 
-                if result is not None:
-                    return result
-                
-                self.restore_domains(first, assignment)
+            self.restore_domains(variable, assignment)
+
+        # Unassign
+        del assignment[variable]
 
         return None
-
 
     def forward_check(self, variable, value, assignment):
         if self.do_forward_checking:
             self.forward_checking(variable, value, assignment)
 
-
     def restore_domains(self, variable, assignment):
         if self.do_forward_checking:
-            if variable in assignment:
-                for domain, value in self.pruned[variable]:
-                    self.domains[domain].append(value)
+            for domain, value in self.pruned[variable]:
+                self.domains[domain].append(value)
 
-                self.pruned[variable] = []
-                del assignment[variable]
+            self.pruned[variable] = []
 
     def search(self):
-        self.backtracking_search()
+        self.backtracking_search(assignment={})
         return self.results_

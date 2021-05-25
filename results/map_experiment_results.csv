@@ -1,0 +1,441 @@
+num_node,k,var_heuristic,domain_heuristic,forward_checking,iteration,solution,nodes_visited,time
+3,3,Simple Variable,Simple Value,False,0,6,16,5.6743621826171875e-05
+3,3,Simple Variable,Simple Value,False,1,6,16,4.6253204345703125e-05
+3,3,Simple Variable,Simple Value,False,2,6,16,4.9114227294921875e-05
+3,3,Simple Variable,Simple Value,False,3,6,16,4.4345855712890625e-05
+3,3,Simple Variable,Simple Value,False,4,6,16,4.696846008300781e-05
+3,3,Simple Variable,Least Constrained Value,False,0,6,16,0.00015401840209960938
+3,3,Simple Variable,Least Constrained Value,False,1,6,16,0.0002033710479736328
+3,3,Simple Variable,Least Constrained Value,False,2,6,16,0.00013971328735351562
+3,3,Simple Variable,Least Constrained Value,False,3,6,16,0.0001430511474609375
+3,3,Simple Variable,Least Constrained Value,False,4,6,16,0.0001430511474609375
+3,3,Most Constrained Variable,Simple Value,False,0,6,16,5.14984130859375e-05
+3,3,Most Constrained Variable,Simple Value,False,1,6,16,5.078315734863281e-05
+3,3,Most Constrained Variable,Simple Value,False,2,6,16,5.269050598144531e-05
+3,3,Most Constrained Variable,Simple Value,False,3,6,16,5.173683166503906e-05
+3,3,Most Constrained Variable,Simple Value,False,4,6,16,5.030632019042969e-05
+3,3,Most Constrained Variable,Least Constrained Value,False,0,6,16,0.0002071857452392578
+3,3,Most Constrained Variable,Least Constrained Value,False,1,6,16,0.0001537799835205078
+3,3,Most Constrained Variable,Least Constrained Value,False,2,6,16,0.000156402587890625
+3,3,Most Constrained Variable,Least Constrained Value,False,3,6,16,0.00015234947204589844
+3,3,Most Constrained Variable,Least Constrained Value,False,4,6,16,0.00015425682067871094
+3,4,Simple Variable,Simple Value,False,0,24,41,0.00010204315185546875
+3,4,Simple Variable,Simple Value,False,1,24,41,0.00010514259338378906
+3,4,Simple Variable,Simple Value,False,2,24,41,0.00010013580322265625
+3,4,Simple Variable,Simple Value,False,3,24,41,0.0001347064971923828
+3,4,Simple Variable,Simple Value,False,4,24,41,0.0001010894775390625
+3,4,Simple Variable,Least Constrained Value,False,0,24,41,0.00031304359436035156
+3,4,Simple Variable,Least Constrained Value,False,1,24,41,0.00031113624572753906
+3,4,Simple Variable,Least Constrained Value,False,2,24,41,0.00031065940856933594
+3,4,Simple Variable,Least Constrained Value,False,3,24,41,0.00031304359436035156
+3,4,Simple Variable,Least Constrained Value,False,4,24,41,0.00031256675720214844
+3,4,Most Constrained Variable,Simple Value,False,0,24,41,0.00011038780212402344
+3,4,Most Constrained Variable,Simple Value,False,1,24,41,0.00010919570922851562
+3,4,Most Constrained Variable,Simple Value,False,2,24,41,0.00011086463928222656
+3,4,Most Constrained Variable,Simple Value,False,3,24,41,0.00011277198791503906
+3,4,Most Constrained Variable,Simple Value,False,4,24,41,0.00011205673217773438
+3,4,Most Constrained Variable,Least Constrained Value,False,0,24,41,0.00033473968505859375
+3,4,Most Constrained Variable,Least Constrained Value,False,1,24,41,0.00039577484130859375
+3,4,Most Constrained Variable,Least Constrained Value,False,2,24,41,0.0003762245178222656
+3,4,Most Constrained Variable,Least Constrained Value,False,3,24,41,0.0003235340118408203
+3,4,Most Constrained Variable,Least Constrained Value,False,4,24,41,0.00032401084899902344
+4,3,Simple Variable,Simple Value,False,0,6,31,0.00011920928955078125
+4,3,Simple Variable,Simple Value,False,1,0,16,7.82012939453125e-05
+4,3,Simple Variable,Simple Value,False,2,6,22,7.772445678710938e-05
+4,3,Simple Variable,Simple Value,False,3,6,22,7.367134094238281e-05
+4,3,Simple Variable,Simple Value,False,4,6,31,0.00011754035949707031
+4,3,Simple Variable,Least Constrained Value,False,0,6,28,0.000392913818359375
+4,3,Simple Variable,Least Constrained Value,False,1,6,28,0.0003902912139892578
+4,3,Simple Variable,Least Constrained Value,False,2,0,16,0.00030040740966796875
+4,3,Simple Variable,Least Constrained Value,False,3,6,22,0.0002865791320800781
+4,3,Simple Variable,Least Constrained Value,False,4,6,28,0.0004012584686279297
+4,3,Most Constrained Variable,Simple Value,False,0,6,22,8.559226989746094e-05
+4,3,Most Constrained Variable,Simple Value,False,1,0,16,8.535385131835938e-05
+4,3,Most Constrained Variable,Simple Value,False,2,6,22,8.797645568847656e-05
+4,3,Most Constrained Variable,Simple Value,False,3,6,22,8.511543273925781e-05
+4,3,Most Constrained Variable,Simple Value,False,4,0,16,8.559226989746094e-05
+4,3,Most Constrained Variable,Least Constrained Value,False,0,6,28,0.0004119873046875
+4,3,Most Constrained Variable,Least Constrained Value,False,1,6,22,0.00030112266540527344
+4,3,Most Constrained Variable,Least Constrained Value,False,2,0,16,0.0003147125244140625
+4,3,Most Constrained Variable,Least Constrained Value,False,3,0,16,0.0003147125244140625
+4,3,Most Constrained Variable,Least Constrained Value,False,4,6,28,0.0006561279296875
+4,4,Simple Variable,Simple Value,False,0,48,101,0.0003819465637207031
+4,4,Simple Variable,Simple Value,False,1,48,105,0.0004124641418457031
+4,4,Simple Variable,Simple Value,False,2,48,101,0.0006947517395019531
+4,4,Simple Variable,Simple Value,False,3,24,65,0.0002739429473876953
+4,4,Simple Variable,Simple Value,False,4,48,89,0.0003714561462402344
+4,4,Simple Variable,Least Constrained Value,False,0,48,89,0.0009822845458984375
+4,4,Simple Variable,Least Constrained Value,False,1,24,65,0.001148223876953125
+4,4,Simple Variable,Least Constrained Value,False,2,48,105,0.00148773193359375
+4,4,Simple Variable,Least Constrained Value,False,3,48,105,0.0013594627380371094
+4,4,Simple Variable,Least Constrained Value,False,4,48,89,0.0010187625885009766
+4,4,Most Constrained Variable,Simple Value,False,0,48,101,0.0003745555877685547
+4,4,Most Constrained Variable,Simple Value,False,1,24,65,0.0002970695495605469
+4,4,Most Constrained Variable,Simple Value,False,2,48,89,0.00027751922607421875
+4,4,Most Constrained Variable,Simple Value,False,3,48,89,0.0003383159637451172
+4,4,Most Constrained Variable,Simple Value,False,4,48,89,0.00032591819763183594
+4,4,Most Constrained Variable,Least Constrained Value,False,0,48,105,0.0014641284942626953
+4,4,Most Constrained Variable,Least Constrained Value,False,1,48,89,0.0009801387786865234
+4,4,Most Constrained Variable,Least Constrained Value,False,2,24,65,0.0010743141174316406
+4,4,Most Constrained Variable,Least Constrained Value,False,3,48,101,0.0013492107391357422
+4,4,Most Constrained Variable,Least Constrained Value,False,4,48,89,0.001008749008178711
+5,3,Simple Variable,Simple Value,False,0,0,28,0.00013065338134765625
+5,3,Simple Variable,Simple Value,False,1,0,16,8.225440979003906e-05
+5,3,Simple Variable,Simple Value,False,2,6,61,0.0002701282501220703
+5,3,Simple Variable,Simple Value,False,3,0,16,8.678436279296875e-05
+5,3,Simple Variable,Simple Value,False,4,6,28,0.00010466575622558594
+5,3,Simple Variable,Least Constrained Value,False,0,6,40,0.0007796287536621094
+5,3,Simple Variable,Least Constrained Value,False,1,0,34,0.0007715225219726562
+5,3,Simple Variable,Least Constrained Value,False,2,6,28,0.0005054473876953125
+5,3,Simple Variable,Least Constrained Value,False,3,6,46,0.0009090900421142578
+5,3,Simple Variable,Least Constrained Value,False,4,6,49,0.0010247230529785156
+5,3,Most Constrained Variable,Simple Value,False,0,6,40,0.00018668174743652344
+5,3,Most Constrained Variable,Simple Value,False,1,6,28,0.00012254714965820312
+5,3,Most Constrained Variable,Simple Value,False,2,0,16,9.322166442871094e-05
+5,3,Most Constrained Variable,Simple Value,False,3,0,37,0.0002048015594482422
+5,3,Most Constrained Variable,Simple Value,False,4,0,22,0.0001227855682373047
+5,3,Most Constrained Variable,Least Constrained Value,False,0,0,34,0.0009293556213378906
+5,3,Most Constrained Variable,Least Constrained Value,False,1,6,37,0.0007305145263671875
+5,3,Most Constrained Variable,Least Constrained Value,False,2,0,31,0.0008134841918945312
+5,3,Most Constrained Variable,Least Constrained Value,False,3,6,28,0.0004932880401611328
+5,3,Most Constrained Variable,Least Constrained Value,False,4,6,28,0.0004978179931640625
+5,4,Simple Variable,Simple Value,False,0,48,137,0.0005741119384765625
+5,4,Simple Variable,Simple Value,False,1,48,153,0.0007138252258300781
+5,4,Simple Variable,Simple Value,False,2,48,161,0.0007252693176269531
+5,4,Simple Variable,Simple Value,False,3,96,197,0.0006558895111083984
+5,4,Simple Variable,Simple Value,False,4,72,161,0.0005934238433837891
+5,4,Simple Variable,Least Constrained Value,False,0,72,161,0.0026988983154296875
+5,4,Simple Variable,Least Constrained Value,False,1,96,273,0.00520777702331543
+5,4,Simple Variable,Least Constrained Value,False,2,96,185,0.0026013851165771484
+5,4,Simple Variable,Least Constrained Value,False,3,24,89,0.002150297164916992
+5,4,Simple Variable,Least Constrained Value,False,4,72,209,0.0042841434478759766
+5,4,Most Constrained Variable,Simple Value,False,0,72,161,0.0006501674652099609
+5,4,Most Constrained Variable,Simple Value,False,1,96,273,0.0013418197631835938
+5,4,Most Constrained Variable,Simple Value,False,2,72,161,0.0006420612335205078
+5,4,Most Constrained Variable,Simple Value,False,3,96,201,0.0007927417755126953
+5,4,Most Constrained Variable,Simple Value,False,4,48,185,0.001020193099975586
+5,4,Most Constrained Variable,Least Constrained Value,False,0,24,113,0.002991914749145508
+5,4,Most Constrained Variable,Least Constrained Value,False,1,72,173,0.0031442642211914062
+5,4,Most Constrained Variable,Least Constrained Value,False,2,72,209,0.004288911819458008
+5,4,Most Constrained Variable,Least Constrained Value,False,3,72,161,0.0027806758880615234
+5,4,Most Constrained Variable,Least Constrained Value,False,4,96,201,0.0031082630157470703
+6,3,Simple Variable,Simple Value,False,0,0,34,0.00016689300537109375
+6,3,Simple Variable,Simple Value,False,1,6,46,0.00018978118896484375
+6,3,Simple Variable,Simple Value,False,2,6,49,0.00022149085998535156
+6,3,Simple Variable,Simple Value,False,3,6,94,0.00041937828063964844
+6,3,Simple Variable,Simple Value,False,4,0,16,8.273124694824219e-05
+6,3,Simple Variable,Least Constrained Value,False,0,6,67,0.0015337467193603516
+6,3,Simple Variable,Least Constrained Value,False,1,0,40,0.0010616779327392578
+6,3,Simple Variable,Least Constrained Value,False,2,0,34,0.0009746551513671875
+6,3,Simple Variable,Least Constrained Value,False,3,6,64,0.0015461444854736328
+6,3,Simple Variable,Least Constrained Value,False,4,0,22,0.0006258487701416016
+6,3,Most Constrained Variable,Simple Value,False,0,0,43,0.0002574920654296875
+6,3,Most Constrained Variable,Simple Value,False,1,0,22,0.0001506805419921875
+6,3,Most Constrained Variable,Simple Value,False,2,0,28,0.0001723766326904297
+6,3,Most Constrained Variable,Simple Value,False,3,6,55,0.0002818107604980469
+6,3,Most Constrained Variable,Simple Value,False,4,6,40,0.00019168853759765625
+6,3,Most Constrained Variable,Least Constrained Value,False,0,6,40,0.0010461807250976562
+6,3,Most Constrained Variable,Least Constrained Value,False,1,0,76,0.0022025108337402344
+6,3,Most Constrained Variable,Least Constrained Value,False,2,0,82,0.002279043197631836
+6,3,Most Constrained Variable,Least Constrained Value,False,3,6,73,0.0018718242645263672
+6,3,Most Constrained Variable,Least Constrained Value,False,4,6,76,0.0018765926361083984
+6,4,Simple Variable,Simple Value,False,0,192,389,0.0014019012451171875
+6,4,Simple Variable,Simple Value,False,1,96,381,0.001964092254638672
+6,4,Simple Variable,Simple Value,False,2,96,309,0.0014560222625732422
+6,4,Simple Variable,Simple Value,False,3,120,297,0.0012118816375732422
+6,4,Simple Variable,Simple Value,False,4,96,525,0.003014802932739258
+6,4,Simple Variable,Least Constrained Value,False,0,72,281,0.007725238800048828
+6,4,Simple Variable,Least Constrained Value,False,1,48,161,0.004178762435913086
+6,4,Simple Variable,Least Constrained Value,False,2,96,281,0.006494760513305664
+6,4,Simple Variable,Least Constrained Value,False,3,48,369,0.011899471282958984
+6,4,Simple Variable,Least Constrained Value,False,4,48,321,0.010265588760375977
+6,4,Most Constrained Variable,Simple Value,False,0,72,293,0.0016257762908935547
+6,4,Most Constrained Variable,Simple Value,False,1,192,413,0.0015506744384765625
+6,4,Most Constrained Variable,Simple Value,False,2,192,417,0.0015749931335449219
+6,4,Most Constrained Variable,Simple Value,False,3,48,317,0.001997709274291992
+6,4,Most Constrained Variable,Simple Value,False,4,96,473,0.002695322036743164
+6,4,Most Constrained Variable,Least Constrained Value,False,0,144,305,0.005780696868896484
+6,4,Most Constrained Variable,Least Constrained Value,False,1,192,617,0.014680147171020508
+6,4,Most Constrained Variable,Least Constrained Value,False,2,144,365,0.008034944534301758
+6,4,Most Constrained Variable,Least Constrained Value,False,3,96,257,0.0063629150390625
+6,4,Most Constrained Variable,Least Constrained Value,False,4,120,321,0.007380247116088867
+7,3,Simple Variable,Simple Value,False,0,0,73,0.0003597736358642578
+7,3,Simple Variable,Simple Value,False,1,6,118,0.0005567073822021484
+7,3,Simple Variable,Simple Value,False,2,0,97,0.00047087669372558594
+7,3,Simple Variable,Simple Value,False,3,0,34,0.00017952919006347656
+7,3,Simple Variable,Simple Value,False,4,0,70,0.00033545494079589844
+7,3,Simple Variable,Least Constrained Value,False,0,0,64,0.0021216869354248047
+7,3,Simple Variable,Least Constrained Value,False,1,0,58,0.0017790794372558594
+7,3,Simple Variable,Least Constrained Value,False,2,0,46,0.0015006065368652344
+7,3,Simple Variable,Least Constrained Value,False,3,0,97,0.0030298233032226562
+7,3,Simple Variable,Least Constrained Value,False,4,0,34,0.0011241436004638672
+7,3,Most Constrained Variable,Simple Value,False,0,0,46,0.00026917457580566406
+7,3,Most Constrained Variable,Simple Value,False,1,0,55,0.00037407875061035156
+7,3,Most Constrained Variable,Simple Value,False,2,0,52,0.0003097057342529297
+7,3,Most Constrained Variable,Simple Value,False,3,6,91,0.0012698173522949219
+7,3,Most Constrained Variable,Simple Value,False,4,0,67,0.000431060791015625
+7,3,Most Constrained Variable,Least Constrained Value,False,0,0,34,0.0011515617370605469
+7,3,Most Constrained Variable,Least Constrained Value,False,1,0,46,0.0014882087707519531
+7,3,Most Constrained Variable,Least Constrained Value,False,2,0,52,0.0020084381103515625
+7,3,Most Constrained Variable,Least Constrained Value,False,3,0,22,0.0007789134979248047
+7,3,Most Constrained Variable,Least Constrained Value,False,4,0,40,0.0014595985412597656
+7,4,Simple Variable,Simple Value,False,0,72,525,0.0032155513763427734
+7,4,Simple Variable,Simple Value,False,1,168,593,0.002925395965576172
+7,4,Simple Variable,Simple Value,False,2,144,437,0.0020589828491210938
+7,4,Simple Variable,Simple Value,False,3,48,185,0.0010035037994384766
+7,4,Simple Variable,Simple Value,False,4,72,853,0.00561976432800293
+7,4,Simple Variable,Least Constrained Value,False,0,96,617,0.023397445678710938
+7,4,Simple Variable,Least Constrained Value,False,1,144,609,0.020358562469482422
+7,4,Simple Variable,Least Constrained Value,False,2,288,1041,0.03130173683166504
+7,4,Simple Variable,Least Constrained Value,False,3,168,497,0.013670921325683594
+7,4,Simple Variable,Least Constrained Value,False,4,120,513,0.017167329788208008
+7,4,Most Constrained Variable,Simple Value,False,0,144,489,0.002641916275024414
+7,4,Most Constrained Variable,Simple Value,False,1,144,877,0.0056116580963134766
+7,4,Most Constrained Variable,Simple Value,False,2,168,741,0.004342555999755859
+7,4,Most Constrained Variable,Simple Value,False,3,168,665,0.0038039684295654297
+7,4,Most Constrained Variable,Simple Value,False,4,120,425,0.002202749252319336
+7,4,Most Constrained Variable,Least Constrained Value,False,0,144,621,0.021445035934448242
+7,4,Most Constrained Variable,Least Constrained Value,False,1,96,737,0.027811050415039062
+7,4,Most Constrained Variable,Least Constrained Value,False,2,24,137,0.005295753479003906
+7,4,Most Constrained Variable,Least Constrained Value,False,3,240,845,0.025556087493896484
+7,4,Most Constrained Variable,Least Constrained Value,False,4,120,653,0.024071455001831055
+8,3,Simple Variable,Simple Value,False,0,6,241,0.001371622085571289
+8,3,Simple Variable,Simple Value,False,1,0,49,0.00025010108947753906
+8,3,Simple Variable,Simple Value,False,2,6,205,0.0009562969207763672
+8,3,Simple Variable,Simple Value,False,3,0,49,0.0002574920654296875
+8,3,Simple Variable,Simple Value,False,4,0,121,0.0005884170532226562
+8,3,Simple Variable,Least Constrained Value,False,0,0,91,0.003203868865966797
+8,3,Simple Variable,Least Constrained Value,False,1,0,127,0.0045239925384521484
+8,3,Simple Variable,Least Constrained Value,False,2,0,154,0.005586862564086914
+8,3,Simple Variable,Least Constrained Value,False,3,0,76,0.002601146697998047
+8,3,Simple Variable,Least Constrained Value,False,4,0,37,0.0014190673828125
+8,3,Most Constrained Variable,Simple Value,False,0,0,130,0.0007634162902832031
+8,3,Most Constrained Variable,Simple Value,False,1,0,82,0.00048828125
+8,3,Most Constrained Variable,Simple Value,False,2,0,136,0.0008006095886230469
+8,3,Most Constrained Variable,Simple Value,False,3,0,52,0.0003116130828857422
+8,3,Most Constrained Variable,Simple Value,False,4,6,97,0.0005514621734619141
+8,3,Most Constrained Variable,Least Constrained Value,False,0,0,55,0.0022916793823242188
+8,3,Most Constrained Variable,Least Constrained Value,False,1,0,187,0.00683140754699707
+8,3,Most Constrained Variable,Least Constrained Value,False,2,0,142,0.005595684051513672
+8,3,Most Constrained Variable,Least Constrained Value,False,3,0,28,0.0010895729064941406
+8,3,Most Constrained Variable,Least Constrained Value,False,4,0,37,0.001424551010131836
+8,4,Simple Variable,Simple Value,False,0,288,881,0.0039806365966796875
+8,4,Simple Variable,Simple Value,False,1,144,869,0.00500941276550293
+8,4,Simple Variable,Simple Value,False,2,336,989,0.004478931427001953
+8,4,Simple Variable,Simple Value,False,3,528,2181,0.011516571044921875
+8,4,Simple Variable,Simple Value,False,4,216,1305,0.007894754409790039
+8,4,Simple Variable,Least Constrained Value,False,0,192,905,0.034670352935791016
+8,4,Simple Variable,Least Constrained Value,False,1,144,941,0.039972782135009766
+8,4,Simple Variable,Least Constrained Value,False,2,528,1881,0.062209129333496094
+8,4,Simple Variable,Least Constrained Value,False,3,216,1533,0.0642242431640625
+8,4,Simple Variable,Least Constrained Value,False,4,192,761,0.027643442153930664
+8,4,Most Constrained Variable,Simple Value,False,0,144,569,0.0033025741577148438
+8,4,Most Constrained Variable,Simple Value,False,1,480,2237,0.013029098510742188
+8,4,Most Constrained Variable,Simple Value,False,2,240,1813,0.012381553649902344
+8,4,Most Constrained Variable,Simple Value,False,3,288,1689,0.01093745231628418
+8,4,Most Constrained Variable,Simple Value,False,4,168,801,0.004939556121826172
+8,4,Most Constrained Variable,Least Constrained Value,False,0,144,713,0.02869129180908203
+8,4,Most Constrained Variable,Least Constrained Value,False,1,408,1401,0.04785275459289551
+8,4,Most Constrained Variable,Least Constrained Value,False,2,144,941,0.04117250442504883
+8,4,Most Constrained Variable,Least Constrained Value,False,3,336,1781,0.07018160820007324
+8,4,Most Constrained Variable,Least Constrained Value,False,4,408,1133,0.03565406799316406
+9,3,Simple Variable,Simple Value,False,0,0,196,0.0009701251983642578
+9,3,Simple Variable,Simple Value,False,1,0,172,0.0009160041809082031
+9,3,Simple Variable,Simple Value,False,2,0,121,0.0006418228149414062
+9,3,Simple Variable,Simple Value,False,3,0,106,0.0005407333374023438
+9,3,Simple Variable,Simple Value,False,4,0,157,0.0008718967437744141
+9,3,Simple Variable,Least Constrained Value,False,0,0,142,0.005731105804443359
+9,3,Simple Variable,Least Constrained Value,False,1,0,121,0.00500035285949707
+9,3,Simple Variable,Least Constrained Value,False,2,0,178,0.006974220275878906
+9,3,Simple Variable,Least Constrained Value,False,3,6,211,0.007716655731201172
+9,3,Simple Variable,Least Constrained Value,False,4,0,151,0.006487846374511719
+9,3,Most Constrained Variable,Simple Value,False,0,6,160,0.0009620189666748047
+9,3,Most Constrained Variable,Simple Value,False,1,0,208,0.0012624263763427734
+9,3,Most Constrained Variable,Simple Value,False,2,6,196,0.0011813640594482422
+9,3,Most Constrained Variable,Simple Value,False,3,0,91,0.0006020069122314453
+9,3,Most Constrained Variable,Simple Value,False,4,0,214,0.001226186752319336
+9,3,Most Constrained Variable,Least Constrained Value,False,0,0,148,0.005984067916870117
+9,3,Most Constrained Variable,Least Constrained Value,False,1,0,46,0.00189971923828125
+9,3,Most Constrained Variable,Least Constrained Value,False,2,0,232,0.00981760025024414
+9,3,Most Constrained Variable,Least Constrained Value,False,3,0,202,0.00847315788269043
+9,3,Most Constrained Variable,Least Constrained Value,False,4,0,52,0.0022559165954589844
+9,4,Simple Variable,Simple Value,False,0,768,2321,0.010154247283935547
+9,4,Simple Variable,Simple Value,False,1,480,2729,0.016141653060913086
+9,4,Simple Variable,Simple Value,False,2,480,2085,0.011189699172973633
+9,4,Simple Variable,Simple Value,False,3,480,2441,0.01410675048828125
+9,4,Simple Variable,Simple Value,False,4,384,7697,0.053632259368896484
+9,4,Simple Variable,Least Constrained Value,False,0,240,2037,0.10003972053527832
+9,4,Simple Variable,Least Constrained Value,False,1,192,1505,0.07304072380065918
+9,4,Simple Variable,Least Constrained Value,False,2,120,665,0.030105113983154297
+9,4,Simple Variable,Least Constrained Value,False,3,72,1529,0.0843358039855957
+9,4,Simple Variable,Least Constrained Value,False,4,432,2113,0.0934896469116211
+9,4,Most Constrained Variable,Simple Value,False,0,264,1617,0.010470867156982422
+9,4,Most Constrained Variable,Simple Value,False,1,336,2289,0.015637874603271484
+9,4,Most Constrained Variable,Simple Value,False,2,816,5505,0.03736567497253418
+9,4,Most Constrained Variable,Simple Value,False,3,408,5953,0.04395771026611328
+9,4,Most Constrained Variable,Simple Value,False,4,432,2553,0.017131328582763672
+9,4,Most Constrained Variable,Least Constrained Value,False,0,720,3129,0.13532233238220215
+9,4,Most Constrained Variable,Least Constrained Value,False,1,624,2637,0.10819220542907715
+9,4,Most Constrained Variable,Least Constrained Value,False,2,96,2805,0.15458273887634277
+9,4,Most Constrained Variable,Least Constrained Value,False,3,384,1425,0.05551791191101074
+9,4,Most Constrained Variable,Least Constrained Value,False,4,432,2321,0.1050863265991211
+10,3,Simple Variable,Simple Value,False,0,0,70,0.0003674030303955078
+10,3,Simple Variable,Simple Value,False,1,0,130,0.0006959438323974609
+10,3,Simple Variable,Simple Value,False,2,0,157,0.0009069442749023438
+10,3,Simple Variable,Simple Value,False,3,0,82,0.0004220008850097656
+10,3,Simple Variable,Simple Value,False,4,0,226,0.0011823177337646484
+10,3,Simple Variable,Least Constrained Value,False,0,0,208,0.00969552993774414
+10,3,Simple Variable,Least Constrained Value,False,1,0,121,0.005808830261230469
+10,3,Simple Variable,Least Constrained Value,False,2,0,382,0.01720261573791504
+10,3,Simple Variable,Least Constrained Value,False,3,0,226,0.010478973388671875
+10,3,Simple Variable,Least Constrained Value,False,4,0,145,0.006532907485961914
+10,3,Most Constrained Variable,Simple Value,False,0,0,211,0.0013720989227294922
+10,3,Most Constrained Variable,Simple Value,False,1,0,154,0.0009822845458984375
+10,3,Most Constrained Variable,Simple Value,False,2,0,139,0.0008509159088134766
+10,3,Most Constrained Variable,Simple Value,False,3,0,457,0.002637147903442383
+10,3,Most Constrained Variable,Simple Value,False,4,0,142,0.0008056163787841797
+10,3,Most Constrained Variable,Least Constrained Value,False,0,0,70,0.0034821033477783203
+10,3,Most Constrained Variable,Least Constrained Value,False,1,0,238,0.012616634368896484
+10,3,Most Constrained Variable,Least Constrained Value,False,2,0,355,0.015981435775756836
+10,3,Most Constrained Variable,Least Constrained Value,False,3,6,139,0.005896091461181641
+10,3,Most Constrained Variable,Least Constrained Value,False,4,0,64,0.003037691116333008
+10,4,Simple Variable,Simple Value,False,0,672,4721,0.029336929321289062
+10,4,Simple Variable,Simple Value,False,1,624,2561,0.01542043685913086
+10,4,Simple Variable,Simple Value,False,2,1056,4937,0.028590917587280273
+10,4,Simple Variable,Simple Value,False,3,336,1817,0.010147809982299805
+10,4,Simple Variable,Simple Value,False,4,336,5157,0.03617072105407715
+10,4,Simple Variable,Least Constrained Value,False,0,384,5445,0.31497979164123535
+10,4,Simple Variable,Least Constrained Value,False,1,648,3425,0.16895842552185059
+10,4,Simple Variable,Least Constrained Value,False,2,528,4693,0.2628176212310791
+10,4,Simple Variable,Least Constrained Value,False,3,1344,4073,0.15865659713745117
+10,4,Simple Variable,Least Constrained Value,False,4,480,3837,0.20486950874328613
+10,4,Most Constrained Variable,Simple Value,False,0,816,3485,0.02117776870727539
+10,4,Most Constrained Variable,Simple Value,False,1,816,3517,0.02195429801940918
+10,4,Most Constrained Variable,Simple Value,False,2,432,3305,0.022710323333740234
+10,4,Most Constrained Variable,Simple Value,False,3,768,4841,0.03412318229675293
+10,4,Most Constrained Variable,Simple Value,False,4,240,1893,0.013439655303955078
+10,4,Most Constrained Variable,Least Constrained Value,False,0,504,4997,0.28884315490722656
+10,4,Most Constrained Variable,Least Constrained Value,False,1,528,3329,0.18059182167053223
+10,4,Most Constrained Variable,Least Constrained Value,False,2,288,3233,0.19308042526245117
+10,4,Most Constrained Variable,Least Constrained Value,False,3,648,2681,0.13036847114562988
+10,4,Most Constrained Variable,Least Constrained Value,False,4,408,2517,0.1332859992980957
+11,3,Simple Variable,Simple Value,False,0,0,328,0.0016558170318603516
+11,3,Simple Variable,Simple Value,False,1,0,604,0.0030450820922851562
+11,3,Simple Variable,Simple Value,False,2,6,466,0.0023021697998046875
+11,3,Simple Variable,Simple Value,False,3,0,118,0.0006425380706787109
+11,3,Simple Variable,Simple Value,False,4,0,184,0.0009753704071044922
+11,3,Simple Variable,Least Constrained Value,False,0,0,112,0.0056667327880859375
+11,3,Simple Variable,Least Constrained Value,False,1,0,58,0.002997875213623047
+11,3,Simple Variable,Least Constrained Value,False,2,0,190,0.009493112564086914
+11,3,Simple Variable,Least Constrained Value,False,3,0,142,0.007115602493286133
+11,3,Simple Variable,Least Constrained Value,False,4,0,319,0.016758441925048828
+11,3,Most Constrained Variable,Simple Value,False,0,0,79,0.0005233287811279297
+11,3,Most Constrained Variable,Simple Value,False,1,6,250,0.0015287399291992188
+11,3,Most Constrained Variable,Simple Value,False,2,0,115,0.0007226467132568359
+11,3,Most Constrained Variable,Simple Value,False,3,0,52,0.0003819465637207031
+11,3,Most Constrained Variable,Simple Value,False,4,0,238,0.0014541149139404297
+11,3,Most Constrained Variable,Least Constrained Value,False,0,0,313,0.015874862670898438
+11,3,Most Constrained Variable,Least Constrained Value,False,1,0,433,0.022521018981933594
+11,3,Most Constrained Variable,Least Constrained Value,False,2,0,73,0.0039119720458984375
+11,3,Most Constrained Variable,Least Constrained Value,False,3,0,112,0.005780696868896484
+11,3,Most Constrained Variable,Least Constrained Value,False,4,0,121,0.006340742111206055
+11,4,Simple Variable,Simple Value,False,0,336,2405,0.01471257209777832
+11,4,Simple Variable,Simple Value,False,1,576,3557,0.022105932235717773
+11,4,Simple Variable,Simple Value,False,2,648,10901,0.07512903213500977
+11,4,Simple Variable,Simple Value,False,3,696,5673,0.03797411918640137
+11,4,Simple Variable,Simple Value,False,4,288,5013,0.0349879264831543
+11,4,Simple Variable,Least Constrained Value,False,0,624,3053,0.16746902465820312
+11,4,Simple Variable,Least Constrained Value,False,1,1248,7941,0.44808149337768555
+11,4,Simple Variable,Least Constrained Value,False,2,1176,4313,0.21315574645996094
+11,4,Simple Variable,Least Constrained Value,False,3,264,3369,0.22409439086914062
+11,4,Simple Variable,Least Constrained Value,False,4,528,4821,0.29906368255615234
+11,4,Most Constrained Variable,Simple Value,False,0,1080,7025,0.04884696006774902
+11,4,Most Constrained Variable,Simple Value,False,1,528,15365,0.12367129325866699
+11,4,Most Constrained Variable,Simple Value,False,2,648,3945,0.025919198989868164
+11,4,Most Constrained Variable,Simple Value,False,3,192,2973,0.022267818450927734
+11,4,Most Constrained Variable,Simple Value,False,4,672,6513,0.046355485916137695
+11,4,Most Constrained Variable,Least Constrained Value,False,0,408,6645,0.43682169914245605
+11,4,Most Constrained Variable,Least Constrained Value,False,1,336,2885,0.18406200408935547
+11,4,Most Constrained Variable,Least Constrained Value,False,2,672,5709,0.3589897155761719
+11,4,Most Constrained Variable,Least Constrained Value,False,3,720,5633,0.3591628074645996
+11,4,Most Constrained Variable,Least Constrained Value,False,4,816,4589,0.2599213123321533
+12,3,Simple Variable,Simple Value,False,0,0,328,0.001737833023071289
+12,3,Simple Variable,Simple Value,False,1,0,649,0.003284931182861328
+12,3,Simple Variable,Simple Value,False,2,0,223,0.001215219497680664
+12,3,Simple Variable,Simple Value,False,3,0,193,0.0010800361633300781
+12,3,Simple Variable,Simple Value,False,4,0,343,0.0017938613891601562
+12,3,Simple Variable,Least Constrained Value,False,0,0,772,0.04163789749145508
+12,3,Simple Variable,Least Constrained Value,False,1,0,172,0.009989261627197266
+12,3,Simple Variable,Least Constrained Value,False,2,0,430,0.02554178237915039
+12,3,Simple Variable,Least Constrained Value,False,3,0,205,0.011531352996826172
+12,3,Simple Variable,Least Constrained Value,False,4,0,193,0.011530637741088867
+12,3,Most Constrained Variable,Simple Value,False,0,0,121,0.0008425712585449219
+12,3,Most Constrained Variable,Simple Value,False,1,0,82,0.0005342960357666016
+12,3,Most Constrained Variable,Simple Value,False,2,0,316,0.0020627975463867188
+12,3,Most Constrained Variable,Simple Value,False,3,0,118,0.0007739067077636719
+12,3,Most Constrained Variable,Simple Value,False,4,0,334,0.00211334228515625
+12,3,Most Constrained Variable,Least Constrained Value,False,0,0,247,0.013948202133178711
+12,3,Most Constrained Variable,Least Constrained Value,False,1,0,214,0.012148857116699219
+12,3,Most Constrained Variable,Least Constrained Value,False,2,0,514,0.02866339683532715
+12,3,Most Constrained Variable,Least Constrained Value,False,3,0,91,0.005553483963012695
+12,3,Most Constrained Variable,Least Constrained Value,False,4,0,172,0.009653091430664062
+12,4,Simple Variable,Simple Value,False,0,720,13961,0.10566878318786621
+12,4,Simple Variable,Simple Value,False,1,384,12381,0.09378623962402344
+12,4,Simple Variable,Simple Value,False,2,576,8861,0.07070660591125488
+12,4,Simple Variable,Simple Value,False,3,912,13413,0.09784817695617676
+12,4,Simple Variable,Simple Value,False,4,2112,9113,0.05103611946105957
+12,4,Simple Variable,Least Constrained Value,False,0,288,4985,0.36898255348205566
+12,4,Simple Variable,Least Constrained Value,False,1,312,2757,0.18895435333251953
+12,4,Simple Variable,Least Constrained Value,False,2,5376,19485,1.0046899318695068
+12,4,Simple Variable,Least Constrained Value,False,3,2304,6765,0.3304133415222168
+12,4,Simple Variable,Least Constrained Value,False,4,2352,13825,0.9156749248504639
+12,4,Most Constrained Variable,Simple Value,False,0,696,18377,0.14901232719421387
+12,4,Most Constrained Variable,Simple Value,False,1,1632,14705,0.10719490051269531
+12,4,Most Constrained Variable,Simple Value,False,2,4368,32109,0.24322199821472168
+12,4,Most Constrained Variable,Simple Value,False,3,264,4869,0.037340641021728516
+12,4,Most Constrained Variable,Simple Value,False,4,1536,7425,0.0505063533782959
+12,4,Most Constrained Variable,Least Constrained Value,False,0,768,10673,0.7928147315979004
+12,4,Most Constrained Variable,Least Constrained Value,False,1,1344,19413,1.4283335208892822
+12,4,Most Constrained Variable,Least Constrained Value,False,2,792,12977,0.9934999942779541
+12,4,Most Constrained Variable,Least Constrained Value,False,3,744,3729,0.24006390571594238
+12,4,Most Constrained Variable,Least Constrained Value,False,4,1104,11997,0.8794500827789307
+13,3,Simple Variable,Simple Value,False,0,0,172,0.0009481906890869141
+13,3,Simple Variable,Simple Value,False,1,0,277,0.0022325515747070312
+13,3,Simple Variable,Simple Value,False,2,0,415,0.002278566360473633
+13,3,Simple Variable,Simple Value,False,3,0,274,0.0014264583587646484
+13,3,Simple Variable,Simple Value,False,4,0,280,0.0015590190887451172
+13,3,Simple Variable,Least Constrained Value,False,0,0,355,0.021972179412841797
+13,3,Simple Variable,Least Constrained Value,False,1,0,388,0.023468971252441406
+13,3,Simple Variable,Least Constrained Value,False,2,0,277,0.016869544982910156
+13,3,Simple Variable,Least Constrained Value,False,3,0,238,0.013731241226196289
+13,3,Simple Variable,Least Constrained Value,False,4,0,307,0.019661664962768555
+13,3,Most Constrained Variable,Simple Value,False,0,0,178,0.0012314319610595703
+13,3,Most Constrained Variable,Simple Value,False,1,0,802,0.004957437515258789
+13,3,Most Constrained Variable,Simple Value,False,2,0,271,0.0018076896667480469
+13,3,Most Constrained Variable,Simple Value,False,3,0,568,0.0036628246307373047
+13,3,Most Constrained Variable,Simple Value,False,4,0,280,0.0019364356994628906
+13,3,Most Constrained Variable,Least Constrained Value,False,0,0,190,0.011828899383544922
+13,3,Most Constrained Variable,Least Constrained Value,False,1,0,124,0.00791168212890625
+13,3,Most Constrained Variable,Least Constrained Value,False,2,0,556,0.03555560111999512
+13,3,Most Constrained Variable,Least Constrained Value,False,3,0,1243,0.07978105545043945
+13,3,Most Constrained Variable,Least Constrained Value,False,4,0,484,0.030698537826538086
+13,4,Simple Variable,Simple Value,False,0,2592,20933,0.13958096504211426
+13,4,Simple Variable,Simple Value,False,1,1272,11393,0.08061909675598145
+13,4,Simple Variable,Simple Value,False,2,1200,13169,0.09651947021484375
+13,4,Simple Variable,Simple Value,False,3,3936,24353,0.16474246978759766
+13,4,Simple Variable,Simple Value,False,4,720,10497,0.07671046257019043
+13,4,Simple Variable,Least Constrained Value,False,0,1776,12137,0.8843050003051758
+13,4,Simple Variable,Least Constrained Value,False,1,1632,8897,0.6046135425567627
+13,4,Simple Variable,Least Constrained Value,False,2,3408,25365,1.857008695602417
+13,4,Simple Variable,Least Constrained Value,False,3,552,12809,1.0905535221099854
+13,4,Simple Variable,Least Constrained Value,False,4,2016,27013,2.156581401824951
+13,4,Most Constrained Variable,Simple Value,False,0,960,63089,0.5129189491271973
+13,4,Most Constrained Variable,Simple Value,False,1,1056,26613,0.22312116622924805
+13,4,Most Constrained Variable,Simple Value,False,2,1728,19069,0.16058802604675293
+13,4,Most Constrained Variable,Simple Value,False,3,3264,23925,0.18973922729492188
+13,4,Most Constrained Variable,Simple Value,False,4,1440,14433,0.11804509162902832
+13,4,Most Constrained Variable,Least Constrained Value,False,0,720,34597,3.083987236022949
+13,4,Most Constrained Variable,Least Constrained Value,False,1,768,27949,2.45540189743042
+13,4,Most Constrained Variable,Least Constrained Value,False,2,480,41229,3.742645263671875
+13,4,Most Constrained Variable,Least Constrained Value,False,3,600,7589,0.6485776901245117
+13,4,Most Constrained Variable,Least Constrained Value,False,4,1920,44625,3.8684182167053223
